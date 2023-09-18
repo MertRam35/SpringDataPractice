@@ -1,5 +1,3 @@
-
-
 INSERT INTO public.discount (discount, discount_type, name) VALUES (25.00, 'RATE_BASED', '%25');
 INSERT INTO public.discount ( discount, discount_type, name) VALUES (50.00, 'AMOUNT_BASED', '50 dollar');
 
@@ -1067,7 +1065,6 @@ INSERT INTO public.product_category_rel (p_id, c_id) VALUES (89, 48);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (453, 5);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (462, 21);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (400, 24);
-INSERT INTO public.product_category_rel (p_id, c_id) VALUES (487, 4);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (60, 32);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (313, 10);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (447, 26);
@@ -1353,7 +1350,7 @@ INSERT INTO public.product_category_rel (p_id, c_id) VALUES (204, 16);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (258, 43);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (56, 18);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (130, 10);
-INSERT INTO public.product_category_rel (p_id, c_id) VALUES (27, 17);
+INSERT INTO public.product_category_rel  (p_id, c_id) VALUES (27, 17);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (109, 49);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (86, 22);
 INSERT INTO public.product_category_rel (p_id, c_id) VALUES (463, 46);

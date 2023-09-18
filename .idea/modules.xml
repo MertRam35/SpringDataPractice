@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringJPACinema/SpringJPACinema.iml" filepath="$PROJECT_DIR$/SpringJPACinema/SpringJPACinema.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringLabsMine.iml" filepath="$PROJECT_DIR$/SpringLabsMine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-06-orm/lab-06-orm.iml" filepath="$PROJECT_DIR$/lab-06-orm/lab-06-orm.iml" />
     </modules>
   </component>
 </project>

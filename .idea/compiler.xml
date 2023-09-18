@@ -2,19 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lab-06-orm" />
+        <module name="SpringJPACinema" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lab-06-orm" target="11" />
+      <module name="SpringJPACinema" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringJPACinema" options="-parameters" />
       <module name="lab-06-orm" options="-parameters" />
     </option>
   </component>
